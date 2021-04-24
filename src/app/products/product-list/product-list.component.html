@@ -3,7 +3,7 @@
 </h2>
 
 <div>
-    {{ (products$ | async).length }} products
+    {{ (products$ | async)?.length }} products
 </div>
 
 <ng-template #loading>
